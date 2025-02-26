@@ -125,7 +125,6 @@ func microwave() {
     + "\(foodAsString)(s) is: \(totalMinutesInt) minutes and "
     + "\(totalSecondsInt) seconds.")
 
-
 }
 
 // Call function
