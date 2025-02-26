@@ -50,12 +50,12 @@ func microwave() {
 
         // If statement for valid input .equals is used to compare strings
         // And .toLowerCase is used to make all input lower case
-        if (foodAsString.lowercased() == "sub"
+        if foodAsString.lowercased() == "sub"
                 || foodAsString.lowercased() == "pizza"
-                || foodAsString.lowercased() == "soup") {
-            if (foodAsString.lowercased() == "sub") {
+                || foodAsString.lowercased() == "soup" {
+            if foodAsString.lowercased() == "sub" {
                 minCookTime = SUB_TIME
-            } else if (foodAsString.lowercased() == "pizza") {
+            } else if foodAsString.lowercased() == "pizza" {
                 minCookTime = PIZZA_TIME
             } else {
                 minCookTime = SOUP_TIME
@@ -124,7 +124,6 @@ func microwave() {
     print("The total time it takes to microwave \(numberOfItemInt)
     \(foodAsString)(s) is:
     \(totalMinutesInt) minutes and \(totalSecondsInt) seconds.")
-
 
 }
 
