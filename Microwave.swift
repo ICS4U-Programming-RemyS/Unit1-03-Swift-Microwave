@@ -121,9 +121,10 @@ func microwave() {
     let totalSecondsInt: Int = Int((timeInMinutes - Double(totalMinutesInt)) * 60)
 
     // Display the time back to the user in mins and secs
-    print("The total time it takes to microwave \(numberOfItemInt)
-    \(foodAsString)(s) is:
-    \(totalMinutesInt) minutes and \(totalSecondsInt) seconds.")
+    print("The total time it takes to microwave \(numberOfItemInt) "
+    + "\(foodAsString)(s) is: \(totalMinutesInt) minutes and "
+    + "\(totalSecondsInt) seconds.")
+
 
 }
 
